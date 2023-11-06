@@ -4,7 +4,7 @@ import os
 home = os.path.expanduser("~")
 
 # Ruta completa a la carpeta de descargas
-ruta_descargas = os.path.join(home, "Descargas")
+ruta_descargas = os.path.join(home, "Donwloads")
 
 # Verifica si la carpeta de descargas existe
 if os.path.exists(ruta_descargas):
